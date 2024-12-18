@@ -37,6 +37,35 @@
             //Console.WriteLine(Math.Pow(inputNum,Power));
 
             #endregion
+
+            #region Write a program to enter marks of five subjects and calculate total, average and percentage
+
+            //Console.WriteLine("Enter Marks of five subjects:");
+            
+            //Console.Write("Subject 1: ");
+            //int subject1 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Subject 2: ");
+            //int subject2 = Convert.ToInt32(Console.ReadLine());
+            
+            //Console.Write("Subject 3: ");
+            //int subject3 = Convert.ToInt32(Console.ReadLine());
+
+            //Console.Write("Subject 4: ");
+            //int subject4 = Convert.ToInt32(Console.ReadLine());
+            
+            //Console.Write("Subject 5: ");
+            //int subject5 = Convert.ToInt32(Console.ReadLine());
+
+            //int total = subject1 + subject2 + subject3 + subject4 + subject5;
+            //float averageMarks = total / 5;
+            //float percentage = averageMarks;
+
+            //Console.WriteLine($"Total marks = {total}");
+            //Console.WriteLine($"Average Marks = {averageMarks}");
+            //Console.WriteLine($"Percentage = {percentage}%");
+
+            #endregion
             Console.ReadKey();
         }
     }
