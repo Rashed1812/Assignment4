@@ -8,9 +8,15 @@
             //Console.WriteLine("Enter Your Number To Print All Numbers Between 1 To This Number ");
             //int num = Convert.ToInt32(Console.ReadLine());
             //for (int i = 1; i <= num; i++) { Console.Write($"{i}, "); }
-
             #endregion
 
+            #region Write a program that allows the user to insert an integer then print a multiplication table up to 12
+
+            //Console.WriteLine("Enter Number to print a multiplication table up to 12:");
+            //int num = Convert.ToInt32(Console.ReadLine());
+            //for (int i = 1; i <= 12; i++) { Console.Write($"{i*num} "); }
+
+            #endregion
             Console.ReadKey();
         }
     }
