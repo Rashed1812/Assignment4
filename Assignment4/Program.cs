@@ -71,7 +71,7 @@
             //Console.WriteLine("Enter Month To Get The Number of Days");
             //int month = int.Parse(Console.ReadLine());
             //int days;
-            
+
             //switch(month)
             //{
             //    case 1:
@@ -100,6 +100,38 @@
             //}
             //Console.WriteLine($"Days in Month: {days}");
 
+            #endregion
+
+            #region 7.Write a program to create a Simple Calculator.
+            
+            //Console.Write("Enter First Number: ");
+            //double num1 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Second Number: ");
+            //double num2 = double.Parse(Console.ReadLine());
+
+            //Console.Write("Enter Kind Of Operate Want to do => ( +,-,*,/ ) : ");
+            //char operation = char.Parse(Console.ReadLine());
+            
+            //switch(operation)
+            //{
+            //    case '+':
+            //        Console.WriteLine($"{num1}+{num2} = {num1 + num2}");
+            //        break;
+            //    case  '-' :
+            //        Console.WriteLine($"{num1}-{num2} = {num1 - num2}");
+            //        break;
+            //    case '*':
+            //        Console.WriteLine($"{num1}*{num2} = {num1 * num2}");
+            //        break;
+            //    case '/':
+            //        if (num2 != 0) { Console.WriteLine($"{num1}/{num2} = {num1 / num2}"); }
+            //        else { Console.WriteLine("Error: can't Division by"); }
+            //        break;
+            //    default:
+            //        Console.WriteLine("Invalid operation Pleas Choose One (+,-,*,/)");
+            //        break;
+            //}
             #endregion
 
             Console.ReadKey();
