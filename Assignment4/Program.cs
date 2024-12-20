@@ -145,7 +145,7 @@ namespace Assignment4
             #endregion
 
             #region 9.Write a program in C# Sharp to find prime numbers within a range of numbers
- 
+
             //Console.Write("Input starting number of range: ");
             //int start = int.Parse(Console.ReadLine());  
 
@@ -175,16 +175,16 @@ namespace Assignment4
             #endregion
 
             #region 10.Write a program in C# Sharp to convert a decimal number into binary without using an array
-            Console.Write("Enter the Nuber To Convert Into Binary: ");
-            int dec = int.Parse(Console.ReadLine());
-            string binary = null ;
-            
-            while (dec > 0) 
-            {
-                binary = (dec % 2) + binary;
-                dec = dec / 2;
-            }
-            Console.WriteLine($"The Binary of {dec} is {binary}");
+            //Console.Write("Enter the Nuber To Convert Into Binary: ");
+            //int dec = int.Parse(Console.ReadLine());
+            //string binary = null;
+
+            //while (dec > 0)
+            //{
+            //    binary = (dec % 2) + binary;
+            //    dec = dec / 2;
+            //}
+            //Console.WriteLine($"The Binary of {dec} is {binary}");
             #endregion
 
             Console.ReadKey();
