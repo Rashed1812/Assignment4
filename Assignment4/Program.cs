@@ -1,4 +1,7 @@
-﻿namespace Assignment4
+﻿using System.Numerics;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+namespace Assignment4
 {
     internal class Program
     {
@@ -103,7 +106,7 @@
             #endregion
 
             #region 7.Write a program to create a Simple Calculator.
-            
+
             //Console.Write("Enter First Number: ");
             //double num1 = double.Parse(Console.ReadLine());
 
@@ -112,7 +115,7 @@
 
             //Console.Write("Enter Kind Of Operate Want to do => ( +,-,*,/ ) : ");
             //char operation = char.Parse(Console.ReadLine());
-            
+
             //switch(operation)
             //{
             //    case '+':
@@ -132,6 +135,56 @@
             //        Console.WriteLine("Invalid operation Pleas Choose One (+,-,*,/)");
             //        break;
             //}
+            #endregion
+
+            #region 8.Write a program to allow the user to enter int and print the REVERSED of it
+            //Console.Write("Enter The Number To Print The REVERSED Of It: ");
+            //int num = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine($"Reversed: {num * -1}");
+            #endregion
+
+            #region 9.Write a program in C# Sharp to find prime numbers within a range of numbers
+
+            //Console.Write("Input starting number of range: ");
+            //int start = int.Parse(Console.ReadLine());  
+
+            //Console.Write("Input ending number of range : ");  
+            //int end = int.Parse(Console.ReadLine());
+
+            //Console.WriteLine($"The prime numbers between {start} and {end} are:");
+
+            //for (int num = start; num <= end; num++)
+            //{
+            //    int counter = 0;  
+            //    for (int i = 2; i <= num / 2; i++)
+            //    {
+            //        if (num % i == 0)
+            //        {
+            //            counter++; 
+            //            break;  
+            //        }
+            //    }
+            //    if (counter == 0 && num != 1)
+            //    {
+            //        //Console.Write($"The prime number between {start} and {end} are: {num}");
+            //        Console.Write($"{num} ");
+
+            //    }
+            //}
+            #endregion
+
+            #region 10.Write a program in C# Sharp to convert a decimal number into binary without using an array
+            //Console.Write("Enter the Nuber To Convert Into Binary: ");
+            //int dec = int.Parse(Console.ReadLine());
+            //string binary = null;
+
+            //while (dec > 0)
+            //{
+            //    binary = (dec % 2) + binary;
+            //    dec = dec / 2;
+            //}
+            //Console.WriteLine($"The Binary of {dec} is {binary}");
             #endregion
 
             Console.ReadKey();
